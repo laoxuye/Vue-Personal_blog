@@ -1,10 +1,12 @@
 <script setup>
 import HeroLeft from '@/components/home/hero/components/HeroLeft.vue'
+import HeroRight from '@/components/home/hero/components/HeroRight.vue'
 </script>
 
 <template>
   <div class="hero-box">
     <HeroLeft />
+    <HeroRight />
   </div>
 </template>
 
