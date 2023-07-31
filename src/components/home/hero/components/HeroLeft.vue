@@ -7,7 +7,10 @@ import avatar from '@/public/notion.png'
     <div class="hero-left">
       <h1>Shi Du - 编程小卒</h1>
       <div class="text">
-        <p><span>我</span>创建美观、功能强大的网站，欢迎探索和联系我。</p>
+        <p>
+          <span>我</span
+          >仅是一个探索者，一直在试图创建出既美观又功能强大的网站。我的网站可能没有最炫酷的特效，没有最前沿的设计，但每一个元素，无论是色彩、线条，还是图像、文字，都是我精心打磨后的结果。在网站的功能方面，我也尽力去实现了一些实用的工具，希望它们能在你需要的时候，提供方便。
+        </p>
       </div>
       <div class="across-black-box"></div>
       <div class="vertical-black-box"></div>
@@ -43,16 +46,18 @@ h1 {
 }
 
 .text {
-  grid-column: 2 / span 2;
+  grid-column: 2 / 4;
   grid-row: 2 / 6;
 
   z-index: 9;
 }
 
 p {
-  font-size: 30px;
+  font-size: 20px;
+  line-height: 46px;
   color: white;
   margin: 0;
+  text-align: justify;
 }
 
 p > span {
