@@ -1,13 +1,13 @@
 <script setup></script>
 
 <template>
-  <main>
+  <div class="dividing-line">
     <div></div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
-main div {
+div.dividing-line div {
   margin: 0 auto;
   width: 88%;
   height: 1px;

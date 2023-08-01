@@ -1,35 +1,9 @@
 <script setup>
-import NavComponents from '@/components/nav/NavComponents.vue'
 import LeftHome from '@/components/home/LeftHome.vue'
-import SidebarComposition from '@/components/home/sidebar/SidebarComposition.vue'
-import { ref } from 'vue'
-
-let SidebarCompositionShow = ref(false)
 </script>
 
 <template>
-  <NavComponents v-show="SidebarCompositionShow" />
-  <div class="two-box">
-    <LeftHome class="LeftHome" />
-    <SidebarComposition class="SearchCompositions" v-show="SidebarCompositionShow" />
-  </div>
+  <LeftHome class="LeftHome" />
 </template>
 
-<style scoped>
-div.two-box {
-  width: 100vw;
-  display: grid;
-  grid-auto-columns: 3fr 1fr;
-  grid-auto-rows: auto;
-}
-
-.LeftHome {
-  grid-column: 1 / 2;
-  grid-row: 1 / span 1;
-}
-
-.SearchCompositions {
-  grid-column: 2 / 3;
-  grid-row: 1 / span 1;
-}
-</style>
+<style scoped></style>

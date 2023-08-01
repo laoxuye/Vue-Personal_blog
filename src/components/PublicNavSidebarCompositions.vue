@@ -1,6 +1,5 @@
 <script setup>
 import NavComponents from '@/components/nav/NavComponents.vue'
-import LeftHome from '@/components/home/LeftHome.vue'
 import SidebarComposition from '@/components/home/sidebar/SidebarComposition.vue'
 import { ref } from 'vue'
 
@@ -26,6 +25,7 @@ div.two-box {
 }
 
 .LeftHome {
+  width: 100%;
   grid-column: 1 / 2;
   grid-row: 1 / span 1;
 }

@@ -3,7 +3,7 @@ import avatar from '@/public/notion.png'
 </script>
 
 <template>
-  <main>
+  <div class="introduce-yourself">
     <div class="hero-left">
       <h1>Shi Du - 编程小卒</h1>
       <div class="text">
@@ -18,7 +18,7 @@ import avatar from '@/public/notion.png'
       <img :src="avatar" class="avatar" alt="avatar" />
       <button>最新博客</button>
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>
