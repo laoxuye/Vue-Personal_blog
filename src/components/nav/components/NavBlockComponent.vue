@@ -18,6 +18,11 @@ div#nav-block {
   align-items: center;
 }
 
+.block {
+  font-family: Source Han Sans CN;
+  font-size: 17px;
+}
+
 .block:hover {
   cursor: pointer;
   border-bottom: 1px solid #2c3e50;

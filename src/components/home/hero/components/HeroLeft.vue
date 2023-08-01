@@ -53,6 +53,10 @@ h1 {
 }
 
 p {
+  //overflow: hidden; /* 隐藏超出的内容 */
+  //text-overflow: ellipsis; /* 当超出内容被隐藏时，显示省略号 */
+  //white-space: nowrap; /* 防止文字换行 */
+
   font-size: 20px;
   line-height: 46px;
   color: white;
@@ -90,6 +94,9 @@ p > span {
 }
 
 .avatar {
+  width: 537px;
+  height: 537px;
+
   grid-column: 5 / span 2;
   grid-row: 5 / 9;
 }
@@ -99,6 +106,9 @@ button {
   height: 84px;
   border: none;
   border-radius: 17px;
+
+  font-size: 30px;
+  letter-spacing: 2px;
 
   background: #ffffff;
 

@@ -6,7 +6,7 @@ import HeroRight from '@/components/home/hero/components/HeroRight.vue'
 <template>
   <div class="hero-box">
     <HeroLeft />
-    <HeroRight />
+    <!--    <HeroRight />-->
   </div>
 </template>
 

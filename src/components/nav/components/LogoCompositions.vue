@@ -18,6 +18,12 @@ div {
   justify-content: space-between;
   align-items: center;
 }
+
+img {
+  width: 39px;
+  height: 43px;
+}
+
 div > p {
   font-family: Source Han Sans CN;
   font-size: 20px;

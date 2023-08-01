@@ -43,5 +43,8 @@ button {
 }
 button span {
   margin-left: 10px;
+
+  font-size: 17px;
+  font-family: Source Han Sans CN;
 }
 </style>
