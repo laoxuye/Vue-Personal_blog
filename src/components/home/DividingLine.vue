@@ -7,12 +7,9 @@
 </template>
 
 <style scoped>
-main {
-  width: 100vw;
-}
 main div {
   margin: 0 auto;
-  width: 1719px;
+  width: 88%;
   height: 1px;
   background: #d8d8d8;
 }

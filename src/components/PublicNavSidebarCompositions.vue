@@ -8,9 +8,11 @@ let SidebarCompositionShow = ref(false)
 </script>
 
 <template>
-  <NavComponents v-show="SidebarCompositionShow" />
+  <NavComponents />
   <div class="two-box">
-    <LeftHome class="LeftHome" />
+    <div class="LeftHome">
+      <RouterView />
+    </div>
     <SidebarComposition class="SearchCompositions" v-show="SidebarCompositionShow" />
   </div>
 </template>

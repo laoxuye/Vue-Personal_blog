@@ -1,13 +1,21 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import PublicNavSidebarCompositions from '@/components/PublicNavSidebarCompositions.vue'
 
-const router = createRouter({
+const routes = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    { path: '/', redirect: '/public/home' },
     {
-      path: '/',
-      name: 'home',
-      component: HomeView
+      path: '/public',
+      name: 'public',
+      component: PublicNavSidebarCompositions,
+      children: [
+        {
+          path: 'home',
+          component: HomeView
+        }
+      ]
     },
     {
       path: '/about',
@@ -19,5 +27,4 @@ const router = createRouter({
     }
   ]
 })
-
-export default router
+export default routes
