@@ -8,7 +8,7 @@ import SearchCompositions from '@/components/nav/components/SearchCompositions.v
     <!-- 导航块 -->
     <NavBlockComponent />
     <!-- 搜索 -->
-    <SearchCompositions class="SearchCompositions" />
+    <SearchCompositions class="SearchCompositions" v-show="true" />
   </div>
 </template>
 

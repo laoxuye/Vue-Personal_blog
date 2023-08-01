@@ -1,7 +1,44 @@
 @import './base.css';
 
-*{
+html{
     box-sizing: border-box;
 }
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 
 html,body { font-size: 62.5%; /* 将 1rem 设为 10px (在大部分浏览器中，默认字体大小为 16px) */ }
+
+/* Edge滚动条的样式 */
+::-webkit-scrollbar {
+    width: 0;  /*设置滚动条的宽度 */
+    /*display: none;*/
+}
+
+::-webkit-scrollbar-track {
+    background: #f7f7f7; /* 设置轨道的颜色 */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #aaa; /* 设置滑块的颜色 */
+    border-radius: 10px; /* 设置滑块的圆角 */
+    border: 2px solid #f7f7f7; /* 设置滑块的边框 */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* 设置鼠标悬停在滑块上时的颜色 */
+}
+
+/*!* 设置滚动条为透明 *!*/
+/*::-webkit-scrollbar {*/
+/*    width: 10px;*/
+/*}*/
+
+/*::-webkit-scrollbar-track {*/
+/*    background: transparent;*/
+/*}*/
+
+/*::-webkit-scrollbar-thumb {*/
+/*    background: transparent;*/
+/*}*/

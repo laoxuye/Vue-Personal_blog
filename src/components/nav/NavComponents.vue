@@ -14,7 +14,7 @@ import RightNavComponent from '@/components/nav/components/RightNavComponent.vue
 
 <style scoped>
 nav {
-  width: 100vw;
+  width: 100%;
   height: 57px;
   padding: 0 42px;
   border-bottom: 1px solid #2c3e50;
