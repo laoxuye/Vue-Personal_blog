@@ -55,33 +55,10 @@ let blogCardsData = ref([
           'js新增基本数据类型，ES10新增数据类型BigInt，js数据基本数据类型,你不知道的js数据类型详解，8种js数据类型'
       }
     ]
-  },
-  {
-    title: '订阅博客',
-    data: [
-      {
-        article_img: docker_img,
-        article_title: 'Docker 技术的应用',
-        article_date: '2023-12-10',
-        article_intro:
-          '从头编译或者扩展现有的 OpenShift 或 Cloud Foundry 平台来搭建自己的 PaaS 环境。'
-      },
-      {
-        article_img: docker_img,
-        article_title: 'Web 新技术',
-        article_date: '2023-11-10',
-        article_intro: 'WebAssembly 是一种新的编码方式，可以在现代的网络浏览器中运行'
-      },
-      {
-        article_img: docker_img,
-        article_title: 'JavaScrip 新增类型',
-        article_date: '2023-12-10',
-        article_intro:
-          'js新增基本数据类型，ES10新增数据类型BigInt，js数据基本数据类型,你不知道的js数据类型详解，8种js数据类型'
-      }
-    ]
   }
 ])
+
+let subscribe = ref('订阅博客')
 </script>
 
 <template>
@@ -104,6 +81,9 @@ let blogCardsData = ref([
             />
           </div>
         </template>
+      </PartitionCompositions>
+      <PartitionCompositions :message="subscribe">
+        <template v-slot:contentPresentation> </template>
       </PartitionCompositions>
     </div>
   </div>
