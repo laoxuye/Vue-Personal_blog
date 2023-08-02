@@ -16,6 +16,7 @@
     "make": "electron-forge make"
   },
   "dependencies": {
+    "@icon-park/vue-next": "^1.4.2",
     "electron-squirrel-startup": "^1.0.0",
     "normalize.css": "^8.0.1",
     "pinia": "^2.1.3",

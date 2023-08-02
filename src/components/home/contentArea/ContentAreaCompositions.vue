@@ -5,6 +5,8 @@ import ContentComposition from '@/components/home/contentArea/components/Content
 
 import docker_img from '@/public/docker-logo.png'
 
+import { Rss } from '@icon-park/vue-next'
+
 let blogCardsData = ref([
   {
     title: '最新博客',
@@ -58,7 +60,7 @@ let blogCardsData = ref([
   }
 ])
 
-let subscribe = ref('订阅博客')
+let subscribe = ref('订阅我的博客')
 </script>
 
 <template>
@@ -83,7 +85,9 @@ let subscribe = ref('订阅博客')
         </template>
       </PartitionCompositions>
       <PartitionCompositions :message="subscribe">
-        <template v-slot:contentPresentation> </template>
+        <template v-slot:contentPresentation
+          ><rss theme="outline" size="24" fill="#333"
+        /></template>
       </PartitionCompositions>
     </div>
   </div>
