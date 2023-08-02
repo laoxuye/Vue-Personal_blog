@@ -13,8 +13,6 @@ import { Search } from '@icon-park/vue-next'
 
 <style scoped>
 button {
-  //display: block;
-
   height: 40px;
   border: 0;
 

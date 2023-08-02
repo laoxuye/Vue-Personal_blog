@@ -1,13 +1,3 @@
-<!--<script setup>-->
-<!--import TheWelcome from '@/components/home/TheWelcome.vue'-->
-<!--</script>-->
-
-<!--<template>-->
-<!--  <TheWelcome />-->
-<!--</template>-->
-
-<!--<style scoped></style>-->
-
 <script setup>
 import HeroCompositions from '@/components/home/hero/HeroCompositions.vue'
 import DividingLine from '@/components/home/DividingLine.vue'
