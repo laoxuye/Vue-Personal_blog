@@ -8,7 +8,10 @@ html{
 }
 
 
-html,body { font-size: 62.5%; /* 将 1rem 设为 10px (在大部分浏览器中，默认字体大小为 16px) */ }
+html,body {
+    font-size: 62.5%; /* 将 1rem 设为 10px (在大部分浏览器中，默认字体大小为 16px) */
+    font-family: Source Han Sans CN;
+}
 
 /* Edge滚动条的样式 */
 ::-webkit-scrollbar {
