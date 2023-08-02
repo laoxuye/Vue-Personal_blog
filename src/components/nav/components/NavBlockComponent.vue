@@ -10,7 +10,7 @@
 
 <style scoped>
 div#nav-block {
-  width: 200px;
+  min-width: 200px;
   height: 100%;
 
   display: flex;
@@ -19,7 +19,6 @@ div#nav-block {
 }
 
 .block {
-  font-family: Source Han Sans CN;
   font-size: 17px;
 }
 

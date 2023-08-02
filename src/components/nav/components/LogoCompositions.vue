@@ -11,7 +11,7 @@ import Logo from '@/public/Logo.png'
 
 <style scoped>
 div {
-  width: 215px;
+  min-width: 215px;
   height: 100%;
 
   display: flex;
@@ -25,7 +25,6 @@ img {
 }
 
 div > p {
-  font-family: Source Han Sans CN;
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 0;

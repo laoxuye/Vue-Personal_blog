@@ -53,9 +53,10 @@ h1 {
 }
 
 p {
-  //overflow: hidden; /* 隐藏超出的内容 */
-  //text-overflow: ellipsis; /* 当超出内容被隐藏时，显示省略号 */
-  //white-space: nowrap; /* 防止文字换行 */
+  display: -webkit-box; /* 使用 flexbox 布局 */
+  -webkit-box-orient: vertical; /* 垂直布局 */
+  -webkit-line-clamp: 9; /* 显示最多2行 */
+  overflow: hidden; /* 隐藏超出的内容 */
 
   font-size: 20px;
   line-height: 46px;
