@@ -85,9 +85,13 @@ let subscribe = ref('订阅我的博客')
         </template>
       </PartitionCompositions>
       <PartitionCompositions :message="subscribe">
-        <template v-slot:contentPresentation
-          ><rss theme="outline" size="24" fill="#333"
-        /></template>
+        <template v-slot:contentPresentation>
+          <div class="rss-email">
+            <input type="text" name="email" id="email" placeholder="请输入邮箱" /><label for="email"
+              ><rss theme="outline" size="24" fill="#828282"
+            /></label>
+          </div>
+        </template>
       </PartitionCompositions>
     </div>
   </div>
@@ -108,5 +112,24 @@ div.content {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
+}
+
+div.rss-email {
+  width: 448px;
+  height: 59px;
+  border-radius: 10px;
+  position: relative;
+}
+div.rss-email label {
+  position: absolute;
+  right: 10px;
+}
+div.rss-email input {
+  width: 448px;
+  height: 59px;
+  border-radius: 10px;
+  font-size: 24px;
+  border: 1px solid #828282;
+  padding-left: 20px;
 }
 </style>
