@@ -11,6 +11,9 @@
 </template>
 
 <style scoped>
+main {
+  border-left: 1px solid #3d3d3d;
+}
 .sidebar-box {
   width: 100%;
   height: 100%;

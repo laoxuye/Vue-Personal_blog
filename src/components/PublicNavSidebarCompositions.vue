@@ -2,8 +2,9 @@
 import NavComponents from '@/components/nav/NavComponents.vue'
 import SidebarComposition from '@/components/home/sidebar/SidebarComposition.vue'
 import { ref } from 'vue'
+import FooterComposition from '@/components/footer/FooterComposition.vue'
 
-let SidebarCompositionShow = ref(false)
+let SidebarCompositionShow = ref(true)
 </script>
 
 <template>
@@ -15,6 +16,7 @@ let SidebarCompositionShow = ref(false)
       </div>
       <SidebarComposition class="SearchCompositions" v-show="SidebarCompositionShow" />
     </div>
+    <FooterComposition />
   </div>
 </template>
 
@@ -25,7 +27,7 @@ div.public-box {
 div.two-box {
   width: 100%;
   display: grid;
-  grid-auto-columns: 3fr 1fr;
+  grid-auto-columns: 4fr 1fr;
   grid-auto-rows: auto;
 }
 

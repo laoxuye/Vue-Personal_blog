@@ -2,21 +2,6 @@
 import navigation_but from '@/public/navigation-but.png'
 import { toRefs } from 'vue'
 
-/*const props = withDefaults(
-  defineProps({
-    article_img: String,
-    article_title: String,
-    article_date: String,
-    article_intro: String
-  }),
-  {
-    article_img: '',
-    article_title: '',
-    article_date: '',
-    article_intro: ''
-  }
-)*/
-
 const props = defineProps({
   article_img: String,
   article_title: String,
