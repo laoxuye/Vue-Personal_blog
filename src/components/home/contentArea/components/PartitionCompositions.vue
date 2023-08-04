@@ -20,7 +20,7 @@ const { message } = toRefs(props)
 <style scoped>
 div.article-display-box {
   width: 448px;
-  height: 452px;
+  height: 550px;
 }
 
 div.article-display-box .article-title {

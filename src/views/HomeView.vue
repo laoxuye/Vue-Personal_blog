@@ -6,12 +6,15 @@ import ContentAreaCompositions from '@/components/home/contentArea/ContentAreaCo
 
 <template>
   <HeroCompositions />
-  <DividingLine />
+  <DividingLine class="DividingLine" />
   <ContentAreaCompositions />
 </template>
 
 <style scoped>
 div {
   width: 100%;
+}
+.DividingLine {
+  margin: 20px 0;
 }
 </style>

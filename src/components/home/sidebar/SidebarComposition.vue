@@ -12,7 +12,7 @@
 
 <style scoped>
 main {
-  border-left: 1px solid #3d3d3d;
+  border-left: 1px solid #d8d8d8;
 }
 .sidebar-box {
   width: 100%;

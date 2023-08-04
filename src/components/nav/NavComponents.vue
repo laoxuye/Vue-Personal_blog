@@ -17,7 +17,7 @@ nav {
   width: 100%;
   height: 57px;
   padding: 0 42px;
-  border-bottom: 1px solid #2c3e50;
+  border-bottom: 1px solid #d8d8d8;
   display: flex;
   justify-content: space-between;
 }
